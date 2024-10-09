@@ -1,0 +1,119 @@
+body {
+  background-color: var(--border-primary);
+}
+
+#page {
+  width: 80rem;
+  background-color: var(--background-default);
+  margin: auto;
+  padding: 5rem 5rem 2.5rem;
+}
+
+h3 {
+  text-transform: uppercase;
+  font: var(--headline);
+  color: var(--text-headline);
+}
+
+h1 {
+  font: var(--title-exl);
+  color: var(--text-primary);
+  margin-block: 0.5rem 2.75rem;
+}
+
+#imgHeader {
+  width: 70rem;
+  height: 45.5625rem;
+  border-radius: 1.25rem;
+}
+
+Header p {
+  font: var(--subtitle);
+  color: var(--text-secondary);
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+#line-margin-1 {
+  margin-block: 2.5rem 4rem;
+}
+
+#line-margin-2 {
+  margin-block: 2.5rem;
+}
+
+h2 {
+  font: var(--title-large);
+  color: var(--text-primary);
+  margin-block: 0.125rem 0.5rem;
+}
+
+section p{
+  font: var(--paragraph);
+  color: var(--text-secondary);
+  margin-bottom: 1rem;
+}
+
+ol li {
+  font: var(--title-ol);
+  color: var(--text-primary);
+  margin-inline-start: 2.5rem;
+}
+
+ul li {
+  font: var(--headline);
+  margin-inline-start: 1.8rem;
+}
+
+.blue {
+  color: var(--accent-blue);
+}
+
+.orange {
+  color: var(--accent-orange);
+}
+
+.pink {
+  color: var(--accent-pink);
+}
+
+.purple {
+  color: var(--accent-purple);
+}
+
+ol img {
+  width: 1120px;
+  height: 350px;
+  border-radius: 20px;
+  margin-block: 3rem 1.25rem;
+}
+
+h4 {
+  font: var(--headline);
+}
+
+.line {
+  width: 1120px;
+  border: 1px solid var(--border-line);
+}
+
+#conclusion {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+footer {
+  font: 400 16px/150% "Alice", serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--text-secondary)
+}
+
+#heart {
+  font-size: 25px;
+  margin: 6px;
+  transform: scaleX(1.3);
+  color: var(--text-secondary)
+}
+
