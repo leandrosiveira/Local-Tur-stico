@@ -25,6 +25,7 @@ h1 {
   width: 70rem;
   height: 45.5625rem;
   border-radius: 1.25rem;
+  object-fit: cover;
 }
 
 Header p {
@@ -58,6 +59,7 @@ ol li {
   font: var(--title-ol);
   color: var(--text-primary);
   margin-inline-start: 2.5rem;
+  margin-bottom: 0.25rem;
 }
 
 ul li {
@@ -86,6 +88,7 @@ ol img {
   height: 350px;
   border-radius: 20px;
   margin-block: 3rem 1.25rem;
+  object-fit:cover;
 }
 
 h4 {
