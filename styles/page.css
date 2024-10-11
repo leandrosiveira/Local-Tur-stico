@@ -113,7 +113,7 @@ footer {
   color: var(--text-secondary)
 }
 
-#heart {
+footer span:nth-child(2) {
   font-size: 25px;
   margin: 6px;
   transform: scaleX(1.3);
